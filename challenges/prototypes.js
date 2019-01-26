@@ -8,7 +8,7 @@
 
 const CuboidMaker = function(values) {
   this.length = values.length;
-  this.width = values.length;
+  this.width = values.width;
   this.height = values.height;
 }
 
@@ -41,8 +41,8 @@ CuboidMaker.prototype.surfaceArea = function() {
 */
 
 const theCube = new CuboidMaker({
-  length: 4,
-  width: 5,
+  length: 10,
+  width: 3,
   height: 5,
 });
 
